@@ -20,8 +20,8 @@ public class Linear_Search {
     }
     static boolean LinearSearch(int[] arr,int key){
         boolean retVal=false;
-        for(int i=0;i<arr.length;i++){
-            if(key==arr[i]) {
+        for (int j : arr) {
+            if (key == j) {
                 retVal = true;
                 break;
             }
